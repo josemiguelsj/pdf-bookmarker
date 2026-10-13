@@ -13,9 +13,11 @@ cd ~/.local/share/pdf-bookmarker
 Dependencias:
 
 ```bash
-python3 -m pip install pypdf
+python3 -m pip install --break-system-packages pypdf pikepdf
 brew install poppler        # pdftotext, pdftoppm
 ```
+
+`pikepdf` solo hace falta para `aplicar-forzado` (PDFs frágiles).
 
 Añadir al `~/.zshrc` si no está:
 
