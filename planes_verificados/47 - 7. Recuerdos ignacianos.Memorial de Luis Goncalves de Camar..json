@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "source_name": "7. Recuerdos ignacianos.Memorial de Luis Goncalves de Camar..pdf",
+  "source_sha256": "e6b20e2a1b9339323e14e478064f7f0b9463d4efe228c0fd9048cfecdc2c2c81",
+  "page_count": 281,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 5,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "PRESENTACIÓN",
+      "page": 9,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Situación",
+      "page": 10,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Primera parte del Memorial: texto castellano",
+      "page": 11,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Segunda parte del Memorial: texto portugués",
+      "page": 15,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Valoración de conjunto",
+      "page": 21,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. El retrato ignaciano",
+      "page": 26,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "6. La presente edición",
+      "page": 34,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "TEXTO DEL 'MEMORIAL'",
+      "page": 39,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Comienzo del Memorial",
+      "page": 41,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "SUPLEMENTOS",
+      "page": 249,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Suplemento I",
+      "page": 249,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "Suplemento II",
+      "page": 252,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "Suplemento III",
+      "page": 256,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "SIGLAS Y BIBLIOGRAFÍA",
+      "page": 259,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "ÍNDICES",
+      "page": 263,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "I. Personas",
+      "page": 263,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "II. Lugares",
+      "page": 268,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "III. Materias",
+      "page": 270,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    }
+  ]
+}

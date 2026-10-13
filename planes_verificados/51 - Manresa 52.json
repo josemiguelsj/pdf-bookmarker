@@ -1,0 +1,393 @@
+{
+  "schema": 1,
+  "source_name": "Manresa 52.pdf",
+  "source_sha256": "5dc80cc500da7398c0fd577614d27f5e7631f48b20144931bd6b0885356f5880",
+  "page_count": 328,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 7,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Presentación",
+      "page": 9,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "I. INTRODUCCIÓN GENERAL",
+      "page": 11,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. El curso de los acontecimientos",
+      "page": 13,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1.1. Las expulsiones de los diversos países europeos",
+      "page": 13,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1.2. Acoso combinado a los papas para obtener la supresión",
+      "page": 15,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1.3. La supresión canónica",
+      "page": 16,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1.4. Pervivencia en la Rusia Blanca, Prusia y otros países",
+      "page": 18,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1.5. La Restauración plena",
+      "page": 21,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1.6. El despegue de la Compañía restaurada",
+      "page": 23,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1.7. Conmemoraciones posteriores de la Restauración (1914, 1964, 2014)",
+      "page": 26,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Selección de los documentos y plan de presentación",
+      "page": 28,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "II. Documentos",
+      "page": 31,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "II.a. Expulsiones y supresión de la Compañía",
+      "page": 33,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Expulsión de España y sus dominios",
+      "page": 33,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 1: Pragmática Sanción de Carlos III de España",
+      "page": 33,
+      "depth": 3,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 2: Extracto de la carta de Clemente XIII a Carlos III",
+      "page": 43,
+      "depth": 3,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 3: Memorial de los ex jesuitas españoles a las Cortes de Cádiz pidiendo la anulación de la Pragmática Sanción",
+      "page": 46,
+      "depth": 3,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. Acoso de las Cortes al papa para obtener la supresión de la Compañía",
+      "page": 83,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 4: Bula Apostolicum Pascendi, de Clemente XIII, en su defensa",
+      "page": 83,
+      "depth": 3,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Docs. 5-11: Cartas del P. Lorenzo Ricci",
+      "page": 89,
+      "depth": 3,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 5: Lorenzo Ricci. La repetición de las oraciones por las calamidades",
+      "page": 92,
+      "depth": 4,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 6: Lorenzo Ricci. La constancia en la oración por las tribulaciones",
+      "page": 96,
+      "depth": 4,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 7: Lorenzo Ricci. Las causas de consuelo y el recurso a Dios",
+      "page": 101,
+      "depth": 4,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 8: Lorenzo Ricci. La perseverancia ferviente en la oración",
+      "page": 110,
+      "depth": 4,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 9: Lorenzo Ricci. La confirmación del Instituto por Clemente XIII",
+      "page": 122,
+      "depth": 4,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 10: Lorenzo Ricci. Las preces ante la gravedad de los peligros",
+      "page": 124,
+      "depth": 4,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 11: Lorenzo Ricci. Nuevo impulso a la oración en el supremo trance de la Compañía",
+      "page": 129,
+      "depth": 4,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "3. Supresión canónica de la Compañía en todo el mundo",
+      "page": 135,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 12: Breve Dominus ac Redemptor, de Clemente XIV, de supresión de la Compañía de Jesús",
+      "page": 135,
+      "depth": 3,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 13: Declaración de inocencia del P. Lorenzo Ricci",
+      "page": 169,
+      "depth": 3,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "II.b. Restauración de la Compañía",
+      "page": 171,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 14: Bula Sollicitudo omnium Ecclesiarum, de Pío VII",
+      "page": 171,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "II.c. Despegue de la Compañía restaurada",
+      "page": 179,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 15: Decretos 6 y 20 de la Congregación General XX",
+      "page": 179,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 16: Carta del P. Jan Roothaan sobre el amor a la Compañía",
+      "page": 182,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 17: Carta del P. Jan Roothaan sobre el Año Secular",
+      "page": 201,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "II.d. Conmemoraciones de la restauración (1914, 1964, 2014)",
+      "page": 225,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 18: Franz Xaver Wernz. Sobre la celebración del primer centenario de la Restauración (1907)",
+      "page": 227,
+      "depth": 2,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 19: Franz Xaver Wernz. Sobre el Año Secular 1914 desde la Restauración de la Compañía",
+      "page": 233,
+      "depth": 2,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 20: Carta de Pío X al P. Franz Xaver Wernz",
+      "page": 266,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 21: Jean Baptiste Janssens. Carta a los Superiores mayores (18 de julio de 1964)",
+      "page": 269,
+      "depth": 2,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 22: Jean Baptiste Janssens. Sobre el 150.º aniversario de la Restauración (31 de julio de 1964)",
+      "page": 272,
+      "depth": 2,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 23: Carta de Pablo VI al P. Jean Baptiste Janssens",
+      "page": 281,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Doc. 24: Adolfo Nicolás. Bicentenario de la muerte de San José Pignatelli (2011)",
+      "page": 285,
+      "depth": 2,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 25: Adolfo Nicolás. Conmemoración del 7 de agosto de 1814 (2012)",
+      "page": 290,
+      "depth": 2,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Doc. 26: Adolfo Nicolás. Segundo centenario de la Restauración de la Compañía (2013)",
+      "page": 294,
+      "depth": 2,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "III. EPÍLOGO",
+      "page": 299,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Documentos oscuros y documentos luminosos",
+      "page": 301,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. Agentes poco visibles y agentes invisibles de la restauración",
+      "page": 307,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Planes de hombres e ironía de Dios",
+      "page": 310,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Conmemorando: aprender, agradecer, renovarse, proyectar",
+      "page": 312,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "ÍNDICE ONOMÁSTICO",
+      "page": 319,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "LOS DOCUMENTOS DEL PROCESO",
+      "page": 324,
+      "depth": 0,
+      "verified": true,
+      "note": "revisar"
+    }
+  ]
+}

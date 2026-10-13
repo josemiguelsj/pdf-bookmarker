@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "source_name": "50. Diego Laínez. Jesuita y teólogo del Concilio.pdf",
+  "source_sha256": "96bdfc1108c16fed0dd019fc248fe0987177179e3b80a2a2ab2693bf854b9452",
+  "page_count": 172,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 171,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Presentación. José García de Castro Valdés (U.P. Comillas, Madrid)",
+      "page": 5,
+      "depth": 0,
+      "verified": true,
+      "note": "comprobación de página"
+    },
+    {
+      "title": "Palabras del P. General de la Compañía de Jesús. P. Adolfo Nicolás Pachón",
+      "page": 11,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Diego Laínez: su entorno cultural y primera amistad con Ignacio de Loyola. Rafael M.ª Sanz de Diego y Verdes-Montenegro SJ (U.P. Comillas, Madrid)",
+      "page": 15,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1.1. Introducción: casi un desconocido",
+      "page": 15,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1.2. Etapas de su vida antes de Trento y de su generalato",
+      "page": 21,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "a. 1512-1528. Almazán, la familia de Laínez, sus primeros estudios",
+      "page": 21,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "b. 1528-1532. Alcalá de Henares",
+      "page": 23,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "c. 1532-1536. París. Los años fecundos",
+      "page": 25,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "d. 1536-1537. El viaje a Venecia",
+      "page": 27,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "e. 1537. Roma: pedir licencia para ir a Tierra Santa. Ordenación sacerdotal",
+      "page": 30,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "f. 1537-1540. De nuevo en Roma. Aprobación pontificia de la Compañía de Jesús",
+      "page": 32,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "g. 1540-1556. Operario, sobre todo en Italia",
+      "page": 38,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1.3. Relación entre Laínez y San Ignacio",
+      "page": 43,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1.4. Últimos brochazos para completar este retrato (faltan las páginas 48-49, continuación en p. 50)",
+      "page": 46,
+      "depth": 1,
+      "verified": true,
+      "note": "inicio ausente en el PDF, destino a la continuación conservada"
+    },
+    {
+      "title": "Conclusión: ¿menos desconocido?",
+      "page": 48,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Diego Laínez: la Compañía de Jesús más allá de Ignacio de Loyola. Javier Burrieza Sánchez (Universidad de Valladolid)",
+      "page": 50,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2.1. Un contexto",
+      "page": 50,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2.2. Examen a una vida",
+      "page": 53,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2.3. Gobernar vocaciones de itinerancias y universalidades",
+      "page": 68,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2.4. Entre los calvinistas en Poissy y la reafirmación de Trento",
+      "page": 82,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2.5. Sin tiempo para gobernar a la Compañía de Jesús",
+      "page": 87,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2.6. Un personaje todavía en la sombra",
+      "page": 91,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. La participación del Maestro Diego Laínez en el Concilio de Trento (1545-1563). Santiago Madrigal Terrazas (U.P. Comillas, Madrid)",
+      "page": 95,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "3.1. El largo camino hacia un Concilio para la \"reformatio pia et catholica\"",
+      "page": 96,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3.2. \"Que algunos de la Compañía se hallasen en el Concilio\"",
+      "page": 105,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3.3. El Maestro Laínez y la obra doctrinal y reformista del Concilio de Trento",
+      "page": 114,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "a. El primer período: Trento (1545-1547) y Bolonia (1547). La doctrina sobre la justificación",
+      "page": 114,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "b. El segundo período (1551-1552). La teología sacramental",
+      "page": 123,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "c. El tercer período (1562-1563): \"reformatio capitis in Concilio?\"",
+      "page": 127,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3.4. Perfil teológico de Laínez: el proyecto inacabado de una suma teológica",
+      "page": 139,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3.5. Conclusión: \"como sean muchas y diversas vías para reformar la universal Iglesia\". ¿Reforma católica o Contrarreforma?",
+      "page": 144,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Cronología de Diego Laínez",
+      "page": 153,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Bibliografía sobre Diego Laínez",
+      "page": 161,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Índice de nombres",
+      "page": 163,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    }
+  ]
+}

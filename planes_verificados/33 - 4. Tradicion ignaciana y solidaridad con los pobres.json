@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "source_name": "4. Tradicion ignaciana y solidaridad con los pobres.pdf",
+  "source_sha256": "8bfecdf68010db726e376188a8b1a48ab69863845e7eb81b5112d8fdea1bbb08",
+  "page_count": 172,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 3,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "INTRODUCCIÓN",
+      "page": 4,
+      "depth": 0,
+      "verified": true,
+      "note": "comprobación de página"
+    },
+    {
+      "title": "Siglas y abreviaturas",
+      "page": 7,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "A. LA EXPERIENCIA DE IGNACIO DE LOYOLA",
+      "page": 8,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. EL PEREGRINO CON LOS POBRES, por José María Rambla",
+      "page": 9,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. DE LA POBREZA A LOS POBRES. Notas sobre la trayectoria espiritual de Ignacio de Loyola, por José Ignacio González Faus",
+      "page": 28,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "B. LOS TEXTOS FUNDAMENTALES DE IGNACIO DE LOYOLA",
+      "page": 59,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "3. LA OPCIÓN POR LOS POBRES EN LOS EJERCICIOS ESPIRITUALES, por un colectivo de Misión Obrera, S. I.",
+      "page": 60,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "4. «Predicar en pobreza» o breve ensayo sobre la gratuidad en Ignacio de Loyola, por Ignacio Iglesias",
+      "page": 79,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "C. IRRADIACIÓN IGNACIANA, HOY",
+      "page": 109,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "5. ESPIRITUALIDAD IGNACIANA Y PROFETISMO, por D. Aleixandre",
+      "page": 110,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "6. FORMAR SEGÚN SAN IGNACIO EN LA ESCUELA DEL POBRE, por Benjamín González Buelta",
+      "page": 129,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "7. LA OPCIÓN FE-JUSTICIA Y LOS COLEGIOS DE LA COMPAÑÍA DE JESÚS, por Jesús Renau",
+      "page": 152,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    }
+  ]
+}

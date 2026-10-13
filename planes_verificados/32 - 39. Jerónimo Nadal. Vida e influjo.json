@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "source_name": "39. Jerónimo Nadal. Vida e influjo.pdf",
+  "source_sha256": "0b88828579d60c9f3f5bc7979ccd4e7b23f905285769dbeda5eac55829c32bc5",
+  "page_count": 247,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 4,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Prólogo del Provincial de España, P. Elías Royón, S.J",
+      "page": 6,
+      "depth": 0,
+      "verified": true,
+      "note": "comprobación de página"
+    },
+    {
+      "title": "Introducción",
+      "page": 10,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "I. Jerónimo Nadal Morey",
+      "page": 12,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "II. Nacimiento, estudios y años críticos (1507-1546)",
+      "page": 13,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "III. Ingreso en la Compañía de Jesús (1546-1548)",
+      "page": 68,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "IV. Fundador del colegio de Mesina y colaborador del virrey de Sicilia (1548-1552)",
+      "page": 81,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "V. Regreso a Roma, profesión religiosa solemne y nueva legación a Nápoles y Sicilia (1552-1553)",
+      "page": 92,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "VI. Primera legación a España y Portugal como comisario general (abril de 1553-octubre de 1554)",
+      "page": 99,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "VII. Ignacio de Loyola le nombra vicario general de toda la Compañía de Jesús. Interés por el colegio de Mallorca (1554)",
+      "page": 118,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "VIII. Primera legación a Europa como vicario general (enero-octubre de 1555)",
+      "page": 122,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "IX. Segunda legación a España como vicario general (noviembre de 1555-diciembre de 1556)",
+      "page": 128,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "X. Muerte de San Ignacio (31 de julio de 1556) y primera grave crisis de la Orden (1557)",
+      "page": 137,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XI. Diego Laínez, elegido general (2 de julio de 1558), y Nadal, asistente del general y rector del Colegio Romano (1558-1560)",
+      "page": 143,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XII. Tercera misión en España como comisario general, continuada en Francia, Alemania e Italia (6 de noviembre de 1560-12 de enero de 1564)",
+      "page": 147,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XIII. Asistente de Austria y Germania Superior y rector del Colegio Romano (13 de enero de 1564-6 de febrero de 1566). Muerte de Laínez y elección de Borja (2 de julio de 1565)",
+      "page": 190,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XIV. Nombrado por el Papa teólogo de la Dieta de Augsburgo y por Francisco de Borja visitador con plenos poderes para las provincias de Alemania Superior e Inferior, Austria y Renania (25 de enero de 1566-22 de septiembre de 1568)",
+      "page": 195,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XV. En Roma, nombrado asistente de España (9 de octubre de 1568-15 de abril de 1574). Muerte de Borja y elección de Everardo Mercuriano como general (23 de abril de 1573)",
+      "page": 204,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XVI. Destino a Alemania y proyectos editoriales de Nadal (mayo de 1574-finales de 1577)",
+      "page": 208,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XVII. Los últimos años en Roma (1578-1580)",
+      "page": 210,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XVIII. La «Biblia Natalis»",
+      "page": 212,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XIX. Importancia de los grabados evangélicos de Jerónimo Nadal",
+      "page": 214,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Testimonio de una nueva espiritualidad",
+      "page": 214,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Herederos de una antigua tradición simbólica",
+      "page": 216,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Hito en la larga historia de la tradición mnemotécnica",
+      "page": 220,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Instrumento de propaganda católica",
+      "page": 222,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Compendio del dogma y de la piedad católicos",
+      "page": 226,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XX. Elaboración de los grabados evangélicos de Jerónimo Nadal",
+      "page": 229,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XXI. Influencia de los grabados evangélicos de Jerónimo Nadal en el arte europeo",
+      "page": 233,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "XXII. Los grabados de Jerónimo Nadal más allá de los océanos",
+      "page": 236,
+      "depth": 0,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Fuentes y obras citadas abreviadamente",
+      "page": 241,
+      "depth": 0,
+      "verified": true,
+      "note": "comprobación de página"
+    },
+    {
+      "title": "Estudios biográficos y generales",
+      "page": 244,
+      "depth": 0,
+      "verified": true,
+      "note": "comprobación de página"
+    },
+    {
+      "title": "Bibliografía sobre la «Biblia Natalis»",
+      "page": 246,
+      "depth": 0,
+      "verified": true,
+      "note": "comprobación de página"
+    }
+  ]
+}

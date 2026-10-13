@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "source_name": "El liderazgo al estilo de los jesuitas Lowney.pdf",
+  "source_sha256": "2f159fba68bc8a3a223c06f853b56c952525d99cf75b7f926e3a6a349152bda4",
+  "page_count": 185,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 5,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Agradecimientos",
+      "page": 6,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Capítulo 1. De los jesuitas y J. P. Morgan",
+      "page": 8,
+      "depth": 0,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 2. Qué hacen los líderes",
+      "page": 15,
+      "depth": 0,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 3. Los jesuitas",
+      "page": 29,
+      "depth": 0,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 4. Modelos de liderazgo",
+      "page": 44,
+      "depth": 0,
+      "verified": true,
+      "note": "inicio de capítulo comprobado en el texto"
+    },
+    {
+      "title": "Capítulo 5. Ordenar su propia vida",
+      "page": 62,
+      "depth": 0,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 6. Los ejercicios espirituales",
+      "page": 73,
+      "depth": 0,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 7. Todo el mundo es nuestra casa",
+      "page": 82,
+      "depth": 0,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 8. No rechazar el talento ni el hombre de calidad",
+      "page": 107,
+      "depth": 0,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 9. Una vida ininterrumpida de actos heroicos",
+      "page": 127,
+      "depth": 0,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 10. Era indispensable una osadía excepcional",
+      "page": 144,
+      "depth": 0,
+      "verified": true,
+      "note": "inicio de capítulo comprobado en el texto"
+    },
+    {
+      "title": "Capítulo 11. Nuestro modo de proceder",
+      "page": 154,
+      "depth": 0,
+      "verified": true,
+      "note": "inicio de capítulo comprobado en el texto"
+    },
+    {
+      "title": "Capítulo 12. Conclusión",
+      "page": 173,
+      "depth": 0,
+      "verified": true,
+      "note": "inicio de capítulo comprobado en el texto"
+    }
+  ]
+}

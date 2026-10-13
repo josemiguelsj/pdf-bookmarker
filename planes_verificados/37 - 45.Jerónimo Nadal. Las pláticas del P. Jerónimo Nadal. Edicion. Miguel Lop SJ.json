@@ -1,0 +1,862 @@
+{
+  "schema": 1,
+  "source_name": "45.Jerónimo Nadal. Las pláticas del P. Jerónimo Nadal. Edicion. Miguel Lop SJ.pdf",
+  "source_sha256": "a8c8706ca72477defcbe71a37c35bb0d86bddb7608cc150a0e069c022d5848e5",
+  "page_count": 410,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 7,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Abreviaturas y siglas",
+      "page": 13,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Introducción",
+      "page": 15,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Cronología",
+      "page": 25,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Escritos",
+      "page": 29,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Bibliografía general básica",
+      "page": 33,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "I. PLÁTICAS EN ESPAÑA. 1554",
+      "page": 37,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Plática I - Preliminares",
+      "page": 39,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. La gracia de la religión en general",
+      "page": 39,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. Origen de la Compañía",
+      "page": 41,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Autoridad de las Constituciones y sus partes",
+      "page": 47,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Plática 2 - Capítulo I del Examen",
+      "page": 48,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Nombre y aprobación de la Compañía",
+      "page": 48,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. ¿Cuál es su fin?",
+      "page": 51,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Medios para el fin de la Compañía",
+      "page": 52,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Plática 3 - Capítulo I del Examen",
+      "page": 55,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Modo de vivir en la Compañía",
+      "page": 55,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Los sujetos y las casas",
+      "page": 58,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Las probaciones",
+      "page": 60,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Plática 4 - Capítulo 2 y 3 del Examen",
+      "page": 62,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Impedimentos de la admisión",
+      "page": 62,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Interrogaciones comunes",
+      "page": 64,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Plática 5 - Capítulo 4 del Examen",
+      "page": 66,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Algunos puntos de los que hay que examinar",
+      "page": 66,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Sobre las experiencias",
+      "page": 69,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Algunas cosas más difíciles que proponer",
+      "page": 73,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "6. Plática 6 - Las Constituciones",
+      "page": 77,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Sobre el proemio",
+      "page": 77,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Sobre la primera parte",
+      "page": 79,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Sobre la segunda parte",
+      "page": 80,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "7. Plática 7 - Sobre la oración",
+      "page": 82,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Oración y Ejercicios",
+      "page": 82,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Modo de la oración",
+      "page": 84,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Tiempo de oración",
+      "page": 87,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "8. Plática 8 - La obediencia y la castidad",
+      "page": 90,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. La obediencia",
+      "page": 90,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. La castidad y de nuevo la obediencia",
+      "page": 94,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "II. PLÁTICAS EN ROMA. 1557",
+      "page": 97,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "9. Plática I - La gracia de la religión y la de la Compañía",
+      "page": 99,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "10. Plática 2 - Fin y nombre de la Compañía",
+      "page": 103,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "III. PLÁTICAS EN COIMBRA. 1561",
+      "page": 107,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "11. Plática I - Introducción. Razones y modo de la visita",
+      "page": 109,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "12. Plática 2 - La gracia de la Compañía",
+      "page": 115,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "13. Plática 3 - La vida de Ignacio, forma de la Compañía",
+      "page": 128,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "14. Plática 4 - El nombre y fin de la Compañía",
+      "page": 134,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "IV. PLÁTICAS EN ALCALÁ. 1561",
+      "page": 141,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "15. Plática I - Aprobación de la Compañía",
+      "page": 143,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Introducción",
+      "page": 143,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. De la religión en general y en particular",
+      "page": 147,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Aprobaciones de la Compañía",
+      "page": 151,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "16. Plática 2 - La vida de Ignacio, forma de la Compañía",
+      "page": 156,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Medios para conocer la Compañía",
+      "page": 156,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. La vida de Ignacio es la forma de la Compañía",
+      "page": 160,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "17. Plática 3. Meditaciones del Rey y las Banderas",
+      "page": 167,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. La gracia de la Compañía en estas meditaciones",
+      "page": 167,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. La Compañía se conoce también por su fin",
+      "page": 172,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Los ministerios de la Compañía",
+      "page": 176,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "18. Plática 4 - Fin de la Compañía",
+      "page": 183,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Fin de la Compañía",
+      "page": 183,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Ministerios para obtener el fin",
+      "page": 191,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "19. Plática 5 - Conocer la Compañía",
+      "page": 194,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Algunos principios para conocer la Compañía",
+      "page": 194,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Otros principios",
+      "page": 198,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "20. Plática 6 - La vida mixta o \"superior\"",
+      "page": 202,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Medios para conocer la gracia de la vocación",
+      "page": 202,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Vida, personas y casas de la Compañía",
+      "page": 205,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. De las personas en particular",
+      "page": 208,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "21. Plática 7 - Los novicios (I)",
+      "page": 211,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Sigue el tratado de los novicios",
+      "page": 211,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Impedimentos para la admisión y experiencias",
+      "page": 215,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "22. Plática 8 - Los novicios (II)",
+      "page": 219,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Experiencias de los novicios",
+      "page": 219,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Medios para ayudar a los novicios",
+      "page": 225,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "23. Plática 9 - Los votos. La pobreza",
+      "page": 229,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. De los votos de religión en general",
+      "page": 229,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Los votos de la Compañía",
+      "page": 232,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. El voto de pobreza",
+      "page": 236,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "24. Plática 10 - La castidad",
+      "page": 240,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Prosigue sobre la pobreza",
+      "page": 240,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. El voto de castidad",
+      "page": 243,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "25. Plática 11 - La obediencia",
+      "page": 250,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "26. Plática 12 - El cuarto voto",
+      "page": 261,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Del voto de obediencia al Sumo Pontífice",
+      "page": 261,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. De los escolares y los estudios de la Compañía",
+      "page": 265,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "27. Plática 13 - Escolares, coadjutores y profesos",
+      "page": 270,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Sigue sobre los estudios",
+      "page": 270,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. De los Coadjutores y Casas de la Compañía",
+      "page": 277,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "28. Plática 14 - Sobre la oración",
+      "page": 281,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "V. PLÁTICA EN ITALIA. 1562",
+      "page": 295,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "29. Plática: origen y progreso de la Compañía",
+      "page": 297,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "VI. PLÁTICAS EN COLONIA. 1567",
+      "page": 301,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "30. Plática I - El instituto de la Compañía",
+      "page": 303,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "31. Plática 2 - El fin y los medios",
+      "page": 307,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. El fin",
+      "page": 307,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Los medios",
+      "page": 308,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Las meditaciones manifestativas del fin",
+      "page": 311,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "32. Plática 3 - Las causas que ayudan al fin",
+      "page": 313,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Los votos",
+      "page": 313,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Pobreza",
+      "page": 315,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Castidad",
+      "page": 318,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Obediencia",
+      "page": 320,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "VII. PLÁTICAS EN AUSTRIA. 1575",
+      "page": 323,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "33. Plática 5 - Dos partes en el fin de la Compañía",
+      "page": 325,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. La salvación y perfección propia",
+      "page": 325,
+      "depth": 2,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. La salvación y perfección del prójimo",
+      "page": 327,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Cómo procurar la salvación del prójimo",
+      "page": 331,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Cómo esforzarse en la perfección del prójimo",
+      "page": 333,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. La perfección del prójimo en religión",
+      "page": 336,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "34. Plática 6 - Los ministerios en la Fórmula del Instituto",
+      "page": 340,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Introducción",
+      "page": 340,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Sobre las predicaciones",
+      "page": 343,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Sobre las lecciones",
+      "page": 349,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Cualquier otro ministerio de la palabra de Dios",
+      "page": 351,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Los Ejercicios espirituales",
+      "page": 360,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "6. La doctrina cristiana",
+      "page": 364,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "7. La administración de los sacramentos",
+      "page": 367,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "8. Otros ministerios",
+      "page": 370,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "VIII. ÍNDICE IGNACIANO",
+      "page": 375,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Datos biográficos de Ignacio",
+      "page": 375,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. Dichos de Ignacio",
+      "page": 377,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Referencias ignacianas",
+      "page": 381,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "schema": 1,
+  "source_name": "2. El Peregrino.Autobiografia de san Ignacio de Loyola.Introducion.J.M.Rambla Blanch SJ.pdf",
+  "source_sha256": "c5c719e9b773f6cd29543edc6020bf3bc18e9717344e9a5e5f10cdb23cf351ce",
+  "page_count": 157,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 5,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "PRÓLOGO",
+      "page": 7,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "SIGLAS Y ABREVIATURAS",
+      "page": 9,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "INTRODUCCIÓN: «EL LIBRO»",
+      "page": 11,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Génesis de la Autobiografía",
+      "page": 13,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La Autobiografía, un libro singular",
+      "page": 16,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "El marco histórico",
+      "page": 20,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "AUTOBIOGRAFÍA: «EL PEREGRINO»",
+      "page": 25,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Loyola: un nuevo nacimiento",
+      "page": 27,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Montserrat: se viste del hombre nuevo",
+      "page": 35,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Manresa: en la escuela de Dios",
+      "page": 39,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Jerusalén: qué alegría, vamos a la casa del Señor",
+      "page": 51,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Barcelona: estudiar para ayudar a las almas",
+      "page": 61,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Alcalá y Salamanca: peligros y cárceles",
+      "page": 63,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "París: los compañeros",
+      "page": 73,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Azpeitia: profeta en su tierra",
+      "page": 86,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Italia: otra Jerusalén",
+      "page": 92,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "El término: siempre en búsqueda",
+      "page": 102,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "COMENTARIO: «LA PEREGRINACIÓN»",
+      "page": 107,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "«Peregrino»: mirada retrospectiva",
+      "page": 109,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Una peregrinación con Dios como guía",
+      "page": 112,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "1. Un caballero al servicio de Cristo",
+      "page": 112,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Tanteando el propio camino",
+      "page": 114,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Ojos nuevos",
+      "page": 117,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Conversión al mundo",
+      "page": 123,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Guiar a los demás",
+      "page": 129,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Ignacio, profeta para nuestro tiempo",
+      "page": 133,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "1. Hallar a Dios en el corazón de la vida",
+      "page": 134,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Rescatar la acción",
+      "page": 135,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Un cristianismo de búsqueda",
+      "page": 136,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Una espiritualidad integradora",
+      "page": 137,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. El corazón ardiente",
+      "page": 138,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "APÉNDICES",
+      "page": 141,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Prólogo del P. Nadal",
+      "page": 143,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Prólogo del P. Luis Goncalves de Cámara",
+      "page": 145,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Ignacio de Loyola - Cuadro histórico",
+      "page": 149,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Nota bibliográfica",
+      "page": 151,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Las rutas del peregrino",
+      "page": 153,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    }
+  ]
+}

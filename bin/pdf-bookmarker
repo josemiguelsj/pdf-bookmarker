@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# pdf-bookmarker — launcher con subcomandos
+#   extraer   | genera plan y texto por páginas
+#   verificar | corrige páginas del plan buscando títulos en el texto
+#   comprobar | valida un plan contra el PDF
+#   aplicar   | escribe los marcadores en el PDF con respaldo
+set -e
+DIR="$HOME/.local/share/pdf-bookmarker"
+cmd="$1"; shift || true
+case "$cmd" in
+  extraer|comprobar|aplicar)
+    exec /usr/bin/env python3 "$DIR/corregir_marcadores.py" "$cmd" "$@"
+    ;;
+  verificar)
+    exec /usr/bin/env python3 "$DIR/verificar_paginas.py" "$@"
+    ;;
+  '' | -h | --help)
+    cat <<'HELP'
+pdf-bookmarker — corrige marcadores de PDFs. 100% offline.
+
+Flujo típico:
+  pdf-bookmarker extraer "libro.pdf" --salida "Revision libro"
+  (opcional) pdf-bookmarker verificar "libro.pdf" "Revision libro/plan_para_revisar.json"
+  (editar plan manualmente contra el libro si hace falta)
+  pdf-bookmarker aplicar "libro.pdf" "Revision libro/plan_para_revisar.json"
+
+Subcomandos:
+  extraer   Genera plan JSON y texto_por_paginas.txt. No modifica el PDF.
+  verificar Para cada entrada numerada del plan, busca su encabezado en
+            el texto del PDF y actualiza la página.
+  comprobar Valida el plan contra el PDF (geometría, páginas, verified).
+  aplicar   Escribe los marcadores en el PDF con respaldo automático.
+
+Documentación: ~/.local/share/pdf-bookmarker/LEAME.md
+HELP
+    ;;
+  *)
+    echo "subcomando desconocido: $cmd" >&2
+    echo "use 'pdf-bookmarker --help'" >&2
+    exit 1
+    ;;
+esac

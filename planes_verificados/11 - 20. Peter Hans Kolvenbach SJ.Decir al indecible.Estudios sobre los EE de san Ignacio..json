@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "source_name": "20. Peter Hans Kolvenbach SJ.Decir al indecible.Estudios sobre los EE de san Ignacio..pdf",
+  "source_sha256": "37f71f36c4ec058840cadf019f2ddf35414621b13dae259a83055d6785383f8c",
+  "page_count": 209,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 207,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Presentación (Ignacio Iglesias)",
+      "page": 5,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Prólogo",
+      "page": 11,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Parte Primera DECIR AL «INDECIBLE»",
+      "page": 13,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Maestro Ignacio, hombre de la palabra",
+      "page": 15,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. Los Ejercicios Espirituales de san Ignacio. El mensaje espiritual a través de las particularidades lingüísticas",
+      "page": 33,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "3. Imágenes e imaginación en los Ejercicios Espirituales",
+      "page": 47,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Parte Segunda «PARA QUE MÁS LE AME Y LE SIGA»",
+      "page": 63,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "4. La experiencia de Cristo en Ignacio de Loyola",
+      "page": 65,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "5. No ocultéis la vida oculta de Cristo",
+      "page": 77,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "6. La Pasión según San Ignacio",
+      "page": 91,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "7. «Cristo descendió al infierno» [219]",
+      "page": 101,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "8. Locos por Cristo",
+      "page": 115,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "9. Nuestra Señora en los Ejercicios Espirituales",
+      "page": 133,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "10. La Pascua de Nuestra Señora",
+      "page": 145,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Parte Tercera «PROCURABA CADA DÍA DE IR ADELANTE»",
+      "page": 157,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "11. El «fruto» de los Ejercicios",
+      "page": 159,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "12. Ejercicios Espirituales y amor preferencial por los pobres",
+      "page": 171,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "13. Normas de san Ignacio sobre los escrúpulos",
+      "page": 183,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Índice de conceptos ignacianos comentados",
+      "page": 199,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Índice de referencias al texto de los Ejercicios",
+      "page": 203,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    }
+  ]
+}

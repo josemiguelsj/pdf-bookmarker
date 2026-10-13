@@ -1,0 +1,407 @@
+{
+  "schema": 1,
+  "source_name": "14. John W.O Malley. Los primeros jesuitas..pdf",
+  "source_sha256": "a3aabb83062c106984f26662c5437a0cf5a325f783392e482e0f4cc4256c4614",
+  "page_count": 462,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 11,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "SIGLAS Y ABREVIATURAS",
+      "page": 13,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "INTRODUCCIÓN",
+      "page": 17,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Capítulo 1. Los cimientos de la fundación",
+      "page": 41,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Ignacio y los primeros compañeros",
+      "page": 41,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. Los Ejercicios Espirituales",
+      "page": 55,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Capítulo 2. Preparándose para los ministerios",
+      "page": 73,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Los miembros de esta Compañía",
+      "page": 74,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Autocomprensión",
+      "page": 86,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Ideales y práctica pastoral",
+      "page": 95,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Diversidad de ministerios",
+      "page": 112,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Capítulo 3. Ministerios de la Palabra de Dios",
+      "page": 119,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Predicación",
+      "page": 119,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "2. Lecciones sacras",
+      "page": 135,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Conversaciones y publicaciones",
+      "page": 142,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Enseñanza del catecismo",
+      "page": 148,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Misiones populares",
+      "page": 161,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "6. Los Ejercicios: su práctica",
+      "page": 163,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Capítulo 4. Sacramentos, culto, oración",
+      "page": 171,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Confesión y casuística",
+      "page": 173,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Sagrada Comunión y Eucaristía",
+      "page": 192,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Órdenes sagradas",
+      "page": 198,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Música y culto",
+      "page": 200,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Oración",
+      "page": 204,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Capítulo 5. Obras de misericordia",
+      "page": 207,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Pacificadores",
+      "page": 211,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Hospitales y cárceles",
+      "page": 214,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Ministerios con los moribundos",
+      "page": 218,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Ministerios con las prostitutas",
+      "page": 223,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Huérfanos e hijas de prostitutas",
+      "page": 231,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "6. Judíos y cristianos nuevos",
+      "page": 234,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "7. Cofradías y Congregaciones Marianas",
+      "page": 239,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Capítulo 6. Los Colegios",
+      "page": 249,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Mesina, el primer colegio",
+      "page": 251,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Fe en la educación",
+      "page": 258,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Más allá del modus parisiensis",
+      "page": 266,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. Educación jesuítica",
+      "page": 279,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Fracasos, frustraciones y crisis",
+      "page": 281,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "6. Formación del clero",
+      "page": 287,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "7. El impacto de los colegios",
+      "page": 295,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Capítulo 7. Cultura religiosa y teológica",
+      "page": 299,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Escolasticismo",
+      "page": 301,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Humanismo renacentista",
+      "page": 311,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Religiosidad católica",
+      "page": 324,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. El Luteranismo y el Imperio",
+      "page": 333,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Capítulo 8. Los jesuítas y la Iglesia universal",
+      "page": 349,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Obispos y teólogos",
+      "page": 352,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. El papado y los papas",
+      "page": 362,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Inquisición y libros prohibidos",
+      "page": 378,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "4. La Reforma y el Concilio de Trento",
+      "page": 390,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Capítulo 9. Prescripciones para el futuro",
+      "page": 401,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "1. Constituciones, reglas y tradiciones",
+      "page": 408,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. Votos y grados de incorporación",
+      "page": 418,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Las casas de la Compañía",
+      "page": 431,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "CONCLUSIÓN",
+      "page": 441,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "ÍNDICE ONOMÁSTICO",
+      "page": 455,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    }
+  ]
+}

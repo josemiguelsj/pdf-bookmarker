@@ -1,0 +1,694 @@
+{
+  "schema": 1,
+  "source_name": "36. Maurice Giuliani SJ. Acoger el tiempo que viene. estudios sobre san Ignacio de Loyola..pdf",
+  "source_sha256": "b0c2f01a3fc22627df4698c6d4245dd94788e644a2735a3d438717b027021c82",
+  "page_count": 255,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 250,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Sumario",
+      "page": 6,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Referencias",
+      "page": 8,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "Prefacio",
+      "page": 10,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "Nota del traductor",
+      "page": 14,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "1. Escritura y silencio",
+      "page": 16,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "El trabajo del discernimiento",
+      "page": 16,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Recurrir al escrito",
+      "page": 20,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "2. ¿Qué esperaba San Ignacio de los Ejercicios?",
+      "page": 22,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Los Ejercicios, instrumento de educación",
+      "page": 22,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Los Ejercicios, instrumento de selección",
+      "page": 27,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Los Ejercicios, instrumento de sumisión al Espíritu",
+      "page": 31,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "3. Compañeros de Jesús",
+      "page": 38,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "A la búsqueda de compañeros",
+      "page": 38,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Una comunidad en el amor fraterno",
+      "page": 40,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Una comunidad en el ideal de la acción",
+      "page": 42,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Una comunidad en el Espíritu Santo",
+      "page": 43,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Los lazos de los compañeros",
+      "page": 45,
+      "depth": 1,
+      "verified": true,
+      "note": "Comprobación del índice y del texto"
+    },
+    {
+      "title": "Una comunidad en el amor fraterno",
+      "page": 45,
+      "depth": 2,
+      "verified": true,
+      "note": "Comprobación del índice y del texto"
+    },
+    {
+      "title": "Una comunidad en el ideal de acción",
+      "page": 47,
+      "depth": 2,
+      "verified": true,
+      "note": "Comprobación del índice y del texto"
+    },
+    {
+      "title": "Una comunidad en el Espíritu Santo",
+      "page": 48,
+      "depth": 2,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "Los Compañeros de Jesús",
+      "page": 49,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado"
+    },
+    {
+      "title": "4. Las mociones del Espíritu",
+      "page": 54,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La experiencia de Ignacio",
+      "page": 55,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Sentir interiormente",
+      "page": 56,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Discernir el sentido",
+      "page": 58,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Buscar la confirmación",
+      "page": 61,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "5. Respeto de Dios e «indiferencia»",
+      "page": 66,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La adhesión a la elección de Dios",
+      "page": 67,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Absoluto y relativo",
+      "page": 69,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Una experiencia de amor",
+      "page": 71,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Dios siempre mayor",
+      "page": 73,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "6. Oración y ejercicio",
+      "page": 76,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La naturaleza del ejercicio",
+      "page": 77,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "El progreso en el ejercicio",
+      "page": 80,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "¿Hay un más allá del ejercicio?",
+      "page": 85,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "7. Vencerse a sí mismo para hallar a Dios",
+      "page": 92,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Guardarse del adversario",
+      "page": 92,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Abatir al adversario",
+      "page": 96,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "En qué consiste esta ofensiva",
+      "page": 96,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Actitud interior que supone",
+      "page": 98,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "En qué condiciones se ejercita",
+      "page": 99,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Dios vencedor",
+      "page": 102,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "8. El misterio de Nuestra Señora en los Ejercicios",
+      "page": 108,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La serie de los misterios",
+      "page": 109,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Un acompañamiento mariano",
+      "page": 114,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La que pone con su Hijo",
+      "page": 118,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "9. Noche y luz de la obediencia",
+      "page": 122,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La obediencia, misterio de noche",
+      "page": 122,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La noche, fuente de luz",
+      "page": 129,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La luz, fuerza de acción",
+      "page": 133,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "10. El discernimiento espiritual en nuestro servicio de autoridad",
+      "page": 140,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La promoción de una persona",
+      "page": 141,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Favorecer una experiencia espiritual",
+      "page": 141,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Suscitar un dinamismo",
+      "page": 143,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Hacer despuntar una libertad",
+      "page": 144,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La evolución de una historia",
+      "page": 146,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La historia de una conciencia",
+      "page": 146,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La historia de una comunidad",
+      "page": 148,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La historia de un instituto",
+      "page": 148,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La exigencia comunitaria",
+      "page": 149,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Un lugar común de búsqueda",
+      "page": 150,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Un lugar de múltiples expresiones de la vida del Espíritu",
+      "page": 150,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Un lugar de confrontaciones de energías creadoras",
+      "page": 152,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "El progreso en el discernimiento espiritual",
+      "page": 153,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La sucesión de las experiencias espirituales",
+      "page": 153,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La unidad de la vida espiritual",
+      "page": 154,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La relación con el mundo",
+      "page": 156,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "11. Encontrar a Dios en todas las cosas",
+      "page": 160,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La experiencia de San Ignacio",
+      "page": 160,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La enseñanza de San Ignacio",
+      "page": 164,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Encontrar a Dios",
+      "page": 172,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "12. Decidirse bajo la moción divina",
+      "page": 180,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Las condiciones de la elección",
+      "page": 180,
+      "depth": 1,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Los tres «tiempos» de elección",
+      "page": 183,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La unidad de los tres «tiempos»",
+      "page": 193,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "13. Perspectivas apostólicas de la espiritualidad ignaciana",
+      "page": 198,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "La obra de Dios universal",
+      "page": 199,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La obra de Dios en las tareas humanas",
+      "page": 204,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La obra de Dios en la paciencia",
+      "page": 209,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "14. Dios nuestro Creador y Redentor",
+      "page": 216,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Las Personas divinas",
+      "page": 217,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La vida trinitaria",
+      "page": 223,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La gloria de Dios",
+      "page": 226,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "15. San Ignacio o la acogida del tiempo que viene",
+      "page": 230,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    },
+    {
+      "title": "Descubrir el tiempo presente",
+      "page": 231,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "En el cruce de extremos",
+      "page": 231,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "La vía de ejercicio",
+      "page": 232,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Formular el tiempo exacto",
+      "page": 235,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Encontrar el punto de convergencia",
+      "page": 235,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Dar cuenta de las «circunstancias»",
+      "page": 236,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Poner el acto de decisión",
+      "page": 237,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Acoger el tiempo que viene",
+      "page": 238,
+      "depth": 1,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Gestionar lo incierto",
+      "page": 239,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Discernir las ocasiones",
+      "page": 241,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "Vivir el tiempo de Dios",
+      "page": 242,
+      "depth": 2,
+      "verified": true,
+      "note": "numeración"
+    },
+    {
+      "title": "16. La espiritualidad ignaciana",
+      "page": 246,
+      "depth": 0,
+      "verified": true,
+      "note": "título y numeración cercana"
+    }
+  ]
+}

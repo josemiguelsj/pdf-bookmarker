@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "source_name": "53 Los Misterios de la vida de Cristo_Alvaro Barreiro.pdf",
+  "source_sha256": "7b1e70850f16676f78febeadf6de1c4bfdcf550aca4d5b2732c732a1f5a8a715",
+  "page_count": 122,
+  "entries": [
+    {
+      "title": "Portada",
+      "page": 1,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Índice general",
+      "page": 4,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Abreviaturas",
+      "page": 7,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Prólogo",
+      "page": 8,
+      "depth": 0,
+      "verified": true,
+      "note": "página comprobada"
+    },
+    {
+      "title": "Primera parte. Los misterios de la vida de Cristo en la tradición espiritual",
+      "page": 11,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Capítulo 1. Los misterios de la vida de Cristo en las cartas de San Ignacio de Antioquía",
+      "page": 12,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 2. Los misterios de la vida de Cristo en los escritos de Orígenes",
+      "page": 20,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 3. La contemplación de los misterios de la vida de Cristo en la época patrística y en la Edad Media",
+      "page": 25,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 4. La Vida de Cristo de Ludolfo de Sajonia y los Ejercicios Espirituales de Ignacio de Loyola",
+      "page": 31,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 5. La experiencia del encuentro de Ignacio de Loyola con Jesucristo",
+      "page": 41,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 6. Enraizamiento de la experiencia del encuentro con Dios de los Ejercicios Espirituales en la Tradición de la Iglesia",
+      "page": 48,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Segunda parte. El método",
+      "page": 56,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Capítulo 7. El método de la contemplación de los misterios de la vida de Cristo en los Ejercicios Espirituales",
+      "page": 57,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 8. Ignacio de Loyola se convierte en peregrino y profundiza en Manresa la experiencia de Dios realizada en Loyola",
+      "page": 62,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 9. El Peregrino se convierte en mistagogo",
+      "page": 68,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 10. Rituales para el encuentro con Dios en la oración",
+      "page": 72,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 11. El método propuesto por Ignacio de Loyola para contemplar los misterios de la vida de Jesucristo",
+      "page": 79,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Tercera parte. Teología",
+      "page": 86,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Capítulo 12. La contemplación de los misterios de la vida de Cristo en la teología de K. Rahner y en la exégesis moderna",
+      "page": 87,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 13. Riqueza y actualidad de la cristología de los misterios de la vida de Cristo en los Ejercicios Espirituales",
+      "page": 93,
+      "depth": 1,
+      "verified": true,
+      "note": "índice y doble página"
+    },
+    {
+      "title": "Capítulo 14. Conoscimiento interno de Jesucristo",
+      "page": 101,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Capítulo 15. El seguimiento de Jesucristo",
+      "page": 106,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Capítulo 16. Pneumatología de los misterios de la vida de Cristo en los Ejercicios Espirituales",
+      "page": 111,
+      "depth": 1,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    },
+    {
+      "title": "Bibliografía",
+      "page": 119,
+      "depth": 0,
+      "verified": true,
+      "note": "encabezado comprobado en el texto"
+    }
+  ]
+}
