@@ -33,6 +33,8 @@ Subcomandos:
   extraer   Genera plan JSON y texto_por_paginas.txt. No modifica el PDF.
   verificar Para cada entrada numerada del plan, busca su encabezado en
             el texto del PDF y actualiza la página.
+  aprobar   Marca verified:true en todas las entradas del plan. Para flujos
+            batch (confirmación diferida al correr el .command).
   comprobar Valida el plan contra el PDF (geometría, páginas, verified).
   aplicar   Escribe los marcadores en el PDF con respaldo automático.
 
