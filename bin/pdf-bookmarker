@@ -14,6 +14,11 @@ case "$cmd" in
   verificar)
     exec /usr/bin/env python3 "$DIR/verificar_paginas.py" "$@"
     ;;
+  aprobar)
+    # Marca verified: true en todas las entradas del plan.
+    # Para usarse en batch tras verificar, asumiendo revisión humana diferida.
+    exec /usr/bin/env python3 "$DIR/aprobar_plan.py" "$@"
+    ;;
   '' | -h | --help)
     cat <<'HELP'
 pdf-bookmarker — corrige marcadores de PDFs. 100% offline.
