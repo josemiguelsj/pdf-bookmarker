@@ -11,13 +11,17 @@ case "$cmd" in
   extraer|comprobar|aplicar)
     exec /usr/bin/env python3 "$DIR/corregir_marcadores.py" "$cmd" "$@"
     ;;
+  extraer-de-indice)
+    exec /usr/bin/env python3 "$DIR/extraer_de_indice.py" "$@"
+    ;;
   verificar)
     exec /usr/bin/env python3 "$DIR/verificar_paginas.py" "$@"
     ;;
   aprobar)
-    # Marca verified: true en todas las entradas del plan.
-    # Para usarse en batch tras verificar, asumiendo revisión humana diferida.
     exec /usr/bin/env python3 "$DIR/aprobar_plan.py" "$@"
+    ;;
+  aplicar-forzado)
+    exec /usr/bin/env python3 "$DIR/aplicar_forzado.py" "$@"
     ;;
   '' | -h | --help)
     cat <<'HELP'
@@ -30,13 +34,19 @@ Flujo típico:
   pdf-bookmarker aplicar "libro.pdf" "Revision libro/plan_para_revisar.json"
 
 Subcomandos:
-  extraer   Genera plan JSON y texto_por_paginas.txt. No modifica el PDF.
-  verificar Para cada entrada numerada del plan, busca su encabezado en
-            el texto del PDF y actualiza la página.
-  aprobar   Marca verified:true en todas las entradas del plan. Para flujos
-            batch (confirmación diferida al correr el .command).
-  comprobar Valida el plan contra el PDF (geometría, páginas, verified).
-  aplicar   Escribe los marcadores en el PDF con respaldo automático.
+  extraer             Genera plan JSON a partir de los marcadores existentes
+                      del PDF, más texto_por_paginas.txt. No modifica el PDF.
+  extraer-de-indice   Genera plan JSON parseando el ÍNDICE del libro cuando
+                      el PDF no tiene marcadores previos.
+  verificar           Para cada entrada numerada del plan, busca su encabezado
+                      en el texto del PDF y actualiza la página.
+  aprobar             Marca verified:true en todas las entradas del plan. Para
+                      flujos batch (confirmación diferida).
+  comprobar           Valida el plan contra el PDF (geometría, páginas, verified).
+  aplicar             Escribe los marcadores con pypdf. Rechaza si cambia la
+                      geometría de las páginas.
+  aplicar-forzado     Escribe los marcadores con pikepdf. Para PDFs frágiles
+                      donde pypdf rechaza por geometría. Siempre crea respaldo.
 
 Documentación: ~/.local/share/pdf-bookmarker/LEAME.md
 HELP
