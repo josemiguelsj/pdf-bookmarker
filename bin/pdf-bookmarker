@@ -1,59 +1,22 @@
 #!/usr/bin/env bash
-# pdf-bookmarker — launcher con subcomandos
-#   extraer   | genera plan y texto por páginas
-#   verificar | corrige páginas del plan buscando títulos en el texto
-#   comprobar | valida un plan contra el PDF
-#   aplicar   | escribe los marcadores en el PDF con respaldo
 set -e
-DIR="$HOME/.local/share/pdf-bookmarker"
-cmd="$1"; shift || true
+DIR="$(cd "$(dirname "$(realpath "$0")")/.." && pwd)"
+if [ -x "$DIR/.venv/bin/python" ]; then
+  DEFAULT_PYTHON="$DIR/.venv/bin/python"
+else
+  DEFAULT_PYTHON="python3"
+fi
+PYTHON="${PDF_BOOKMARKER_PYTHON:-$DEFAULT_PYTHON}"
+cmd="${1:---help}"
+if [ "$#" -gt 0 ]; then shift; fi
 case "$cmd" in
-  extraer|comprobar|aplicar)
-    exec /usr/bin/env python3 "$DIR/corregir_marcadores.py" "$cmd" "$@"
-    ;;
-  extraer-de-indice)
-    exec /usr/bin/env python3 "$DIR/extraer_de_indice.py" "$@"
-    ;;
-  verificar)
-    exec /usr/bin/env python3 "$DIR/verificar_paginas.py" "$@"
-    ;;
-  aprobar)
-    exec /usr/bin/env python3 "$DIR/aprobar_plan.py" "$@"
-    ;;
-  aplicar-forzado)
-    exec /usr/bin/env python3 "$DIR/aplicar_forzado.py" "$@"
-    ;;
-  '' | -h | --help)
-    cat <<'HELP'
-pdf-bookmarker — corrige marcadores de PDFs. 100% offline.
-
-Flujo típico:
-  pdf-bookmarker extraer "libro.pdf" --salida "Revision libro"
-  (opcional) pdf-bookmarker verificar "libro.pdf" "Revision libro/plan_para_revisar.json"
-  (editar plan manualmente contra el libro si hace falta)
-  pdf-bookmarker aplicar "libro.pdf" "Revision libro/plan_para_revisar.json"
-
-Subcomandos:
-  extraer             Genera plan JSON a partir de los marcadores existentes
-                      del PDF, más texto_por_paginas.txt. No modifica el PDF.
-  extraer-de-indice   Genera plan JSON parseando el ÍNDICE del libro cuando
-                      el PDF no tiene marcadores previos.
-  verificar           Para cada entrada numerada del plan, busca su encabezado
-                      en el texto del PDF y actualiza la página.
-  aprobar             Marca verified:true en todas las entradas del plan. Para
-                      flujos batch (confirmación diferida).
-  comprobar           Valida el plan contra el PDF (geometría, páginas, verified).
-  aplicar             Escribe los marcadores con pypdf. Rechaza si cambia la
-                      geometría de las páginas.
-  aplicar-forzado     Escribe los marcadores con pikepdf. Para PDFs frágiles
-                      donde pypdf rechaza por geometría. Siempre crea respaldo.
-
-Documentación: ~/.local/share/pdf-bookmarker/LEAME.md
-HELP
-    ;;
-  *)
-    echo "subcomando desconocido: $cmd" >&2
-    echo "use 'pdf-bookmarker --help'" >&2
-    exit 1
-    ;;
+  extraer|comprobar|aplicar) exec "$PYTHON" "$DIR/corregir_marcadores.py" "$cmd" "$@" ;;
+  extraer-de-indice) exec "$PYTHON" "$DIR/extraer_de_indice.py" "$@" ;;
+  verificar) exec "$PYTHON" "$DIR/verificar_paginas.py" "$@" ;;
+  aprobar) exec "$PYTHON" "$DIR/aprobar_plan.py" "$@" ;;
+  aplicar-forzado) exec "$PYTHON" "$DIR/aplicar_forzado.py" "$@" ;;
+  aprender) exec "$PYTHON" "$DIR/memoria.py" "$@" ;;
+  carpeta) exec "$PYTHON" "$DIR/procesar_carpeta.py" "$@" ;;
+  -h|--help) echo 'pdf-bookmarker: extraer, extraer-de-indice, verificar, comprobar, aplicar, aplicar-forzado, aprender, carpeta. Procesamiento local sin llamadas a modelos.' ;;
+  *) echo "Subcomando desconocido: $cmd" >&2; exit 1 ;;
 esac

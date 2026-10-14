@@ -50,7 +50,17 @@ def marcadores(reader):
 
 def escribir_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    fd, name = tempfile.mkstemp(prefix='.' + path.name, suffix='.tmp', dir=path.parent)
+    temporary = Path(name)
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as stream:
+            stream.write(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
 
 
 def sha256(path):
@@ -61,8 +71,38 @@ def sha256(path):
     return h.hexdigest()
 
 
+def firma_recurso(value, memo, active):
+    from pypdf.generic import IndirectObject, StreamObject, DictionaryObject, ArrayObject
+    if isinstance(value, IndirectObject):
+        value = value.get_object()
+    key = id(value)
+    if isinstance(value, (DictionaryObject, ArrayObject)):
+        if key in active:
+            return 'cycle'
+        if key in memo:
+            return memo[key]
+        active.add(key)
+        digest = hashlib.sha256()
+        if isinstance(value, DictionaryObject):
+            for name in sorted(value.keys()):
+                if isinstance(value, StreamObject) and name in ['/Length', '/Filter', '/DecodeParms']:
+                    continue
+                digest.update(str(name).encode())
+                digest.update(firma_recurso(value.raw_get(name), memo, active).encode())
+            if isinstance(value, StreamObject):
+                digest.update(value.get_data())
+        else:
+            for item in value:
+                digest.update(firma_recurso(item, memo, active).encode())
+        active.remove(key)
+        memo[key] = digest.hexdigest()
+        return memo[key]
+    return repr(value)
+
+
 def firmas_paginas(reader):
     result = []
+    memo = {}
     for page in reader.pages:
         contents = page.get_contents()
         result.append({
@@ -70,6 +110,7 @@ def firmas_paginas(reader):
             'media': [float(v) for v in page.mediabox],
             'crop': [float(v) for v in page.cropbox],
             'giro': int(page.get('/Rotate', 0)),
+            'recursos': firma_recurso(page.get('/Resources', {}), memo, set()),
         })
     return result
 
@@ -95,6 +136,20 @@ def validar_plan(plan, count):
         previous = depth
 
 
+def plan_conocido(fingerprint, count, directory=None):
+    directory = directory or Path(__file__).parent / 'planes_verificados'
+    for path in sorted(directory.glob('*.json')):
+        try:
+            data = cargar_plan(path)
+            if data.get('source_sha256') != fingerprint or data.get('page_count') != count:
+                continue
+            validar_plan(data.get('entries'), count)
+            return data
+        except (ValueError, OSError, TypeError):
+            continue
+    return None
+
+
 def extraer(args):
     src = args.pdf.resolve()
     reader = leer_pdf(src)
@@ -108,14 +163,22 @@ def extraer(args):
         page_count=len(reader.pages),
         entries=[dict(x, verified=False) for x in entries],
     )
+    known = plan_conocido(plan['source_sha256'], plan['page_count'])
+    if known:
+        plan['entries'] = [dict(e) for e in known['entries']]
+        plan['review_origin'] = 'verified_local_plan'
     escribir_json(out / 'plan_para_revisar.json', plan)
     escribir_json(out / 'marcadores_originales.json', entries)
-    poppler = shutil.which('pdftotext')
-    if poppler:
-        subprocess.run([poppler, '-layout', str(src), str(out / 'texto_por_paginas.txt')], check=True)
-    else:
-        texts = [p.extract_text() or '' for p in reader.pages]
-        (out / 'texto_por_paginas.txt').write_text('\f'.join(texts), encoding='utf-8')
+    from verificar_paginas import leer_pdf_por_paginas, normtxt
+    texts = leer_pdf_por_paginas(src)
+    (out / 'texto_por_paginas.txt').write_text('\f'.join(texts), encoding='utf-8')
+    existing_index = any(normtxt(x['title']) in ['indice', 'indice general', 'contents', 'table of contents'] for x in plan['entries'])
+    if not existing_index:
+        for n, text in enumerate(texts, 1):
+            if any(normtxt(line).strip('.') in ['indice', 'indice general', 'contents', 'table of contents'] for line in text.splitlines()):
+                plan['entries'].insert(0, dict(title='Índice general', page=n, depth=0, verified=True, evidence=dict(method='index_heading', page=n, title='Índice general', source_sha256=plan['source_sha256'])))
+                escribir_json(out / 'plan_para_revisar.json', plan)
+                break
     print(f'Extraídos {len(entries)} marcadores de {len(reader.pages)} páginas.')
     print(f'Plan pendiente de revisión: {out / "plan_para_revisar.json"}')
 
@@ -130,10 +193,12 @@ def cargar_plan(path):
 def comprobar(args):
     reader = leer_pdf(args.pdf)
     data = cargar_plan(args.plan)
+    if data.get('needs_structure_review'):
+        raise ValueError('No se pudo reconstruir el contenido del índice. Revise la estructura.')
     validar_plan(data.get('entries'), len(reader.pages))
     if data.get('page_count') != len(reader.pages):
         raise ValueError('El número de páginas no coincide con el plan.')
-    if data.get('source_sha256') and data['source_sha256'] != sha256(args.pdf):
+    if not data.get('source_sha256') or data['source_sha256'] != sha256(args.pdf):
         raise ValueError('El PDF cambió desde la revisión. Extraiga y revise un plan nuevo.')
     print(f'Plan válido: {len(data["entries"])} marcadores. La estructura y las páginas son válidas.')
     print('Esta comprobación no sustituye la comparación de los títulos con el libro.')
@@ -196,7 +261,11 @@ def aplicar(args):
     temp_path = Path(temp_name)
     try:
         with os.fdopen(fd, 'wb') as stream:
-            writer.write(stream)
+            if getattr(args, 'motor', 'pypdf') == 'pikepdf':
+                from aplicar_forzado import escribir_pikepdf
+                escribir_pikepdf(backup, stream, entries)
+            else:
+                writer.write(stream)
             stream.flush()
             os.fsync(stream.fileno())
         final = leer_pdf(temp_path)
@@ -225,6 +294,14 @@ def aplicar(args):
             'paginas_con_imagen_identica': checked,
             'sha256_anterior': original_hash, 'sha256_final': sha256(src),
         }
+        try:
+            from memoria import recordar_aplicacion
+            recordar_aplicacion(data, report['sha256_final'])
+            report['memoria_actualizada'] = True
+        except (OSError, ValueError, TypeError) as exc:
+            report['memoria_actualizada'] = False
+            report['error_memoria'] = str(exc)
+            print(f'El PDF quedó guardado. No se pudo actualizar la memoria: {exc}', file=sys.stderr)
         escribir_json(backup_dir / 'informe.json', report)
         print(f'Guardado en el mismo archivo: {src}')
         print(f'Marcadores: {len(old_entries)} → {len(entries)}. Páginas: {len(reader.pages)}.')
@@ -249,6 +326,7 @@ def main():
     apply.add_argument('pdf', type=Path)
     apply.add_argument('plan', type=Path)
     apply.add_argument('--respaldo', type=Path)
+    apply.add_argument('--motor', choices=['pypdf', 'pikepdf'], default='pypdf')
     apply.add_argument('--verificar-imagenes', choices=['destinos', 'todas'],
                        help='Compara las imágenes antes y después. Necesita Poppler.')
     apply.set_defaults(func=aplicar)
