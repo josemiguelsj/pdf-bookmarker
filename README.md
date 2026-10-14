@@ -6,6 +6,14 @@ El proceso conserva una copia del original, comprueba las páginas y sus recurso
 
 ## Uso
 
+Para elegir un PDF o una carpeta mediante un diálogo de macOS:
+
+```bash
+~/bin/pdf-bookmarker trabajar
+```
+
+El selector prepara los planes. Añada `--aplicar` para guardar solo planes completamente verificados.
+
 ```bash
 pdf-bookmarker extraer "libro.pdf" --salida "Revision libro"
 pdf-bookmarker verificar "libro.pdf" "Revision libro/plan_para_revisar.json"

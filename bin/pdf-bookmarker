@@ -16,7 +16,8 @@ case "$cmd" in
   aprobar) exec "$PYTHON" "$DIR/aprobar_plan.py" "$@" ;;
   aplicar-forzado) exec "$PYTHON" "$DIR/aplicar_forzado.py" "$@" ;;
   aprender) exec "$PYTHON" "$DIR/memoria.py" "$@" ;;
+  trabajar) exec "$PYTHON" "$DIR/seleccionar.py" "$@" ;;
   carpeta) exec "$PYTHON" "$DIR/procesar_carpeta.py" "$@" ;;
-  -h|--help) echo 'pdf-bookmarker: extraer, extraer-de-indice, verificar, comprobar, aplicar, aplicar-forzado, aprender, carpeta. Procesamiento local sin llamadas a modelos.' ;;
+  -h|--help) echo 'pdf-bookmarker: trabajar, extraer, extraer-de-indice, verificar, comprobar, aplicar, aplicar-forzado, aprender, carpeta. Procesamiento local sin llamadas a modelos.' ;;
   *) echo "Subcomando desconocido: $cmd" >&2; exit 1 ;;
 esac

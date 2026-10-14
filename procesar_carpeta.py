@@ -7,15 +7,32 @@ from verificar_paginas import verificar
 from extraer_de_indice import generar
 
 
+def listar_pdfs(ruta):
+    if ruta.is_file():
+        if ruta.suffix.lower() != '.pdf':
+            raise ValueError('Seleccione un archivo PDF.')
+        return [ruta]
+    if ruta.is_dir():
+        return [p for p in sorted(ruta.iterdir()) if p.is_file() and p.suffix.lower() == '.pdf']
+    raise ValueError('El archivo o la carpeta no existe.')
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('carpeta', type=Path)
     p.add_argument('--aplicar', action='store_true', help='Guardar solo planes sin entradas pendientes.')
     args = p.parse_args()
-    for pdf in sorted(args.carpeta.iterdir()):
+    try:
+        pdfs = listar_pdfs(args.carpeta)
+    except ValueError as exc:
+        p.error(str(exc))
+    if not pdfs:
+        print('La carpeta no contiene archivos PDF.')
+        return
+    for pdf in pdfs:
         if pdf.suffix.lower() != '.pdf' or not pdf.is_file():
             continue
-        out = args.carpeta / '_pdf_bookmarker_tmp' / pdf.stem
+        out = pdf.parent / '_pdf_bookmarker_tmp' / pdf.stem
         plan = out / 'plan_para_revisar.json'
         try:
             extraer(SimpleNamespace(pdf=pdf, salida=out))
