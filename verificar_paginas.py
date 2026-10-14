@@ -48,26 +48,36 @@ def norm_lines(text):
     return '\n'.join(normtxt(line) for line in text.splitlines())
 
 
+SPECIAL = {'index', 'indice', 'indice general', 'contents', 'table of contents', 'errata', 'erratas', 'fe de erratas'}
+
+def sin_numero(title):
+    return re.sub(r'^(?:[ivxlcdm]+|\d+(?:\.\d+)*)[.]\s+', '', normtxt(title))
+
 def indexar_encabezados(pages):
     index = {}
     for page, text in enumerate(pages, 1):
-        if es_indice(text):
-            continue
+        index_page = es_indice(text)
         lines = [normtxt(x) for x in text.splitlines() if x.strip()]
         for i in range(len(lines)):
             for count in range(1, 5):
                 heading = ' '.join(lines[i:i + count]).strip(' .')
-                if 8 <= len(heading) <= 500:
+                heading = re.sub(r'(?<=[a-z])\d{1,3}$', '', heading)
+                if heading in SPECIAL or (not index_page and 8 <= len(heading) <= 500):
                     index.setdefault(heading, set()).add(page)
     return index
 
 
 def candidatos(title, pages, index=None):
     target = normtxt(title).strip(' .')
-    if len(target) < 8:
+    if len(target) < 8 and target not in SPECIAL:
         return []
     index = index if index is not None else indexar_encabezados(pages)
-    return sorted(index.get(target, []))
+    hits = index.get(target, set())
+    if not hits:
+        bare = sin_numero(title)
+        if bare != target and len(bare) >= 8:
+            hits = index.get(bare, set())
+    return sorted(hits)
 
 
 def verificar(pdf, plan_path, ventana=25, dry=False):

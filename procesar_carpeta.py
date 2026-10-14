@@ -42,7 +42,10 @@ def main():
             verificar(pdf, plan)
             data = cargar_plan(plan)
             pending = sum(e.get('verified') is not True for e in data['entries'])
-            if not data['entries'] or pending or data.get('needs_structure_review'):
+            if not data['entries'] or data.get('needs_structure_review'):
+                print(f'{pdf.name}: no se extrajo una estructura completa. Revise el índice o el OCR.')
+                continue
+            if pending:
                 print(f'{pdf.name}: pendiente de revisión ({pending} entradas).')
                 continue
             if args.aplicar:

@@ -29,7 +29,7 @@ pdf-bookmarker extraer-de-indice "libro.pdf" --salida "Revision libro"
 
 El índice general tiene su propia página física. Las entradas extraídas conservan el número impreso en `printed_page`. Su destino queda pendiente hasta encontrar un encabezado o registrar una revisión. El programa no trata los números impresos como páginas físicas.
 
-`verificar` busca títulos completos en todo el libro, incluidos encabezados que ocupan varias líneas. Verifica automáticamente una coincidencia única. Si aparecen varias coincidencias o ninguna, deja la entrada pendiente. No cambia destinos para imponer un orden creciente. El índice puede aparecer antes de capítulos situados en páginas anteriores.
+`verificar` busca títulos completos en todo el libro, incluidos encabezados que ocupan varias líneas. Reconoce también números de sección que solo aparecen en el índice, notas al pie adheridas al encabezado y títulos cortos como ERRATA. El marcador del índice se busca en las páginas del propio índice. Verifica automáticamente una coincidencia única. Si aparecen varias coincidencias o ninguna, deja la entrada pendiente. No cambia destinos para imponer un orden creciente. El índice puede aparecer antes de capítulos situados en páginas anteriores.
 
 La búsqueda exacta no reconstruye OCR defectuoso ni resuelve toda jerarquía editorial. En esos casos hace falta revisar el índice y las páginas candidatas. El programa registra los pendientes en `informe_verificacion.json`.
 

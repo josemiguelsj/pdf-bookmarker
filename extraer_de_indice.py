@@ -6,7 +6,7 @@ from pathlib import Path
 from corregir_marcadores import escribir_json, sha256
 from verificar_paginas import leer_pdf_por_paginas, normtxt
 
-HEAD = re.compile(r'^(indice(?: general)?|contenido|sumario|table of contents|contents|table des matieres|inhaltsverzeichnis)\.?$')
+HEAD = re.compile(r'^(indice(?: general)?|synopsis of contents|contenido|sumario|table of contents|contents|table des matieres|inhaltsverzeichnis)\.?$')
 ENTRY = re.compile(r'^(\s*)(.{3,250}?)\s*(?:\.{2,}|\s{2,})\s*(\d{1,4}|[ivxlcdm]+)\s*$', re.I)
 
 
@@ -29,7 +29,7 @@ def generar(pdf, out):
     headings = []
     for n, text in enumerate(pages, 1):
         for i, line in enumerate(text.splitlines()):
-            if HEAD.fullmatch(normtxt(line)):
+            if HEAD.fullmatch(re.sub(r'\s+[ivxlcdm]+$', '', normtxt(line))):
                 headings.append((n, i, line.strip()))
     general = [x for x in headings if normtxt(x[2]) in ['indice', 'indice general', 'table of contents', 'contents']]
     chosen = (general or headings)
